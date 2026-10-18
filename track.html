@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abrindo no Wave Pro</title>
+  <style>
+    body { align-items: center; background: #0d0912; color: #fff; display: flex; font-family: Arial, sans-serif; justify-content: center; margin: 0; min-height: 100vh; text-align: center; }
+    main { max-width: 360px; padding: 24px; }
+    a { color: #c7a9ff; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Abrindo no Wave Pro</h1>
+  <p>Se o app não abrir, você será direcionado para a Google Play.</p>
+  <p><a id="store-link" href="https://play.google.com/store/apps/details?id=com.wavepro.app">Baixar o Wave Pro</a></p>
+</main>
+<script>
+  window.setTimeout(function () {
+    window.location.replace(document.getElementById("store-link").href);
+  }, 800);
+</script>
+</body>
+</html>
